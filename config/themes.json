@@ -1,0 +1,23 @@
+{
+  "folio-theme": {
+    "src": "vendor/folio/theme-frontend-folio",
+    "dest": "pub/static/frontend/Folio/Theme",
+    "locale": ["en_GB", "en_US"],
+    "localeOverwrites": true,
+    "stylesDir": "web/css",
+    "modules": {
+      "Magento_Catalog": "vendor/magento/module-catalog",
+      "Magento_CatalogSearch": "vendor/magento/module-catalog-search",
+      "Magento_Customer": "vendor/magento/module-customer",
+      "Magento_Newsletter": "vendor/magento/module-newsletter",
+      "Magento_Search": "vendor/magento/module-search",
+      "Magento_Theme": "vendor/magento/module-theme",
+      "Magento_Wishlist": "vendor/magento/module-wishlist"
+    }/*,
+    "postcss": ["plugins.autoprefixer()"],
+    "ignore": [
+      "vendor/snowdog/module-sample/{docs,dist}*//**",
+      "*.xml"
+    ]*/
+  }
+}
