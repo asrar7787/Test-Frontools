@@ -1,7 +1,7 @@
 {
   "folio-theme": {
     "src": "vendor/snowdog/theme-blank-sass",
-    "dest": "pub/static/frontend/Folio/Theme",
+    "dest": "pub/static/frontend/Snowdog/blank",
     "locale": ["en_GB", "en_US"],
     "localeOverwrites": true,
     "stylesDir": "web/css"
